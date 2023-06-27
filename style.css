@@ -1,0 +1,181 @@
+body{
+    background-color: rgb(11, 10, 10);
+    color: rgb(206, 235, 16);
+}
+
+
+.cambios{   /*esta clase y cambio solo fue para verificar los cambios con GIT*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 86px;
+    text-align: center;
+    color:red;
+
+}
+
+h1{
+    font-family: 'Arial', 'sans-serif';
+    font-family: 36px;
+    text-align: center;
+}
+
+.box{
+    font-family: 'Georgia', 'serif';
+    font-family: 18px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
+  .container-nav {
+
+    display: flex;
+  
+    padding: 10px;
+  
+    height: 50px;
+  
+    background-color: rgb(6, 36, 49);
+  
+  }
+
+  .navbar {
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+    width: 100%;
+  
+  }
+
+  .brand {
+  
+    display: flex;
+  
+    align-items: center;
+  
+  }
+
+  li>a {
+  
+    padding: 8px 24px;
+  
+  }
+
+  li {
+  
+    list-style-type: none;
+  
+  }
+  
+  
+  a {
+  
+    color: rgb(255, 255, 255);
+  
+    text-decoration:none;
+  
+  }
+ 
+  
+  .nav-links {
+  
+    display: none;
+  
+    align-items: center;
+  
+  }
+
+  .button-menu-toggle {
+  
+    display: none;
+  
+  }
+  @media (max-width: 768px) {
+
+    .column {
+  
+      flex: 100%;
+  
+   }
+
+  
+    .nav-links {
+  
+      display: none;
+  
+    }
+
+  
+    .button-menu-toggle { /*color del boton menu en pagina chica*/
+  
+      display: block ;
+  
+      background-color: rgb(223, 58, 58);
+  
+      border:none;
+  
+      border-radius: 50px;
+  
+      padding: 0 24px;
+  
+      font-family: monospace;
+  
+      font-weight: bold;
+  
+      font-size: 20px;
+  
+    }
+  
+    .nav-links.nav-links-responsive {
+  
+      position: absolute;
+  
+      display: flex;
+  
+      background-color: rgba(20,20,20,0.95);
+  
+      width: 100%;
+  
+      height: 100%;
+  
+      top: 70px;
+  
+      left: 0;
+  
+      flex-direction: column;
+  
+      padding-top: 200px;
+  
+      align-items: center;
+  
+      gap:70px;
+  
+      font-size: 40px;
+  
+  
+  
+    }
+  
+  } 
